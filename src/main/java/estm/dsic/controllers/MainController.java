@@ -83,9 +83,6 @@ public class MainController extends HttpServlet {
         if (request.getRequestURI().equals(getServletContext().getContextPath() + "/deleteNote")){
             deleteNote(request, response, session);
         }
-
-
-
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
